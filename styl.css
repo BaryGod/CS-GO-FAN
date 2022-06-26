@@ -1,0 +1,222 @@
+body{ background: radial-gradient(circle, rgba(94,65,76,1) 0%, rgba(0,28,61,1) 100%);
+overflow-y: scroll;}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#tytul{
+    width: 100%;
+    height: 20%;  
+    float:left;
+}
+#logo{
+  max-width: 50%;
+  max-height: 100%;
+  filter:brightness(100%);
+ 
+}
+#tytul #zdj{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+#social{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin: 12px 10px 10px 10px;
+    transform: scale(1);
+    transition-duration: 0.8s;
+}
+#social:hover{
+    transform: scale(1.2);
+    margin-left: 15px;
+    transition-duration: 0.8s;
+    filter: drop-shadow(0 -2mm 4mm rgb(210, 0, 81));
+}
+main{
+    height:120%;
+}
+#a{
+    float: right;
+    width: 2em;
+    height: 2em;
+    margin-left: 10px;
+}
+#topteam{float: left;
+    width:60%;
+    height: 100%;
+   
+}
+aside {
+    float: left;
+    width:30%;
+    height: 100%; 
+   
+}
+#akademia{
+    width: 100%;
+    height: 50%;
+    margin-top: 230px;
+   
+}
+
+.mapa{
+    width:33%;
+    height:100%;
+    border-right: 1px solid black;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    margin-top:auto;
+}
+
+
+.topskin{
+    filter: grayscale(90%);
+    transition:4s;
+    background: linear-gradient(45deg, rgba(236,38,223,1) 2%, rgba(236,38,87,1) 48%, rgba(204,202,3,1) 88%, rgba(234,238,0,1) 100%, rgba(255,250,0,1) 100%);    max-width:45%;
+    max-height: 30%;
+    margin: 20px auto 20px auto;
+    border-radius: 30% 70% 20% 10%;
+
+}
+
+.topskin:first-of-type:hover{
+    filter:brightness(1.75);
+    transition: 2s;
+    box-shadow: 0 -7px 18em gold;
+    
+}
+
+.topskin:nth-of-type(2):hover{
+    filter:brightness(1.75);
+    transition: 2s;
+   box-shadow: 0 -7px 18em silver;
+}
+.topskin:nth-of-type(3):hover{
+    filter:brightness(1.75);
+    transition: 2s;
+    box-shadow: 0 -7px 18em #b87333;
+}
+
+.topskin img{
+margin: 20px auto 20px auto; 
+filter:blur(6px);
+margin: auto;
+max-width:100%; 
+max-height:100%; 
+transition-duration: 3s;
+
+}
+.topskin img:hover{
+    transition-duration: 1.5s;
+    filter: blur(0px);
+    transform:scale(1.4);
+}
+
+#skin{
+    text-align: center;
+    font-family: 'counter-strikeregular' Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 10%;
+}
+#gora{
+    width: 120px;
+    height: 120px;
+    float:right;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#glowne{
+    width: 100%;
+    height:100%;
+}
+.case{
+    background-image: url("img/case.png");
+    transition:1s;
+  
+}
+.case:hover{
+background-image: url("img/noz.png");
+width:120px;
+height:120px;
+transition: 1s;
+animation: obrot 3s;
+}
+#text{
+    text-align: center;
+    font-size: 3em;
+}
+.portret{
+   
+    width: 120px;
+    height:137px;
+}
+#team{
+    margin: 5% auto 5% auto;
+    width:80%;
+    height: 90%;
+    border-right: 1px solid black;
+    
+}
+hr{
+   margin-left: 0;
+   margin-right: 0;
+    width:100%;
+    background: black;
+    height:1px;
+    border:0px;
+}
+#gracze{
+    padding:0.1px;
+    width: 50%;
+    height: 100%;
+   margin:0;
+       
+}
+#gracze img{
+    float:left;
+    margin-bottom: 5px;
+}
+.opis{
+    float:right;
+    font-size: 0.6em;
+    font-style: bold;
+}
+.nazwa{
+    float:left;
+    margin-top: 60px; 
+    margin-right: 30px;
+}
+#fazelogo{
+    float:right;
+    width:200px;
+    height: 200px;
+}
+#organizacja{
+    height: 80%;
+    padding-left: 40px;
+    border-left: 1px solid black;
+    float: right;
+    margin-right: 10%;
+}
+#mecze{ 
+   justify-content: center;
+    text-align: center;
+    
+}
+.kolo{
+    animation: obrot 5s infinite
+}
+@keyframes obrot {
+    50% {transform: rotate(360deg);}
+
+}
