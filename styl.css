@@ -31,7 +31,7 @@ footer p{
     height: auto;
     font-size: 1.4em;
 }
-#logo{
+#logodol{
     float: right;
     width: 100px;
     height: 100px;
@@ -52,7 +52,7 @@ footer p{
 
 .social:hover{
     transform: scale(1.2);
-    margin-left: 15px;
+    margin-left: 5%;
     transition-duration: 0.8s;
     filter: drop-shadow(0 -2mm 4mm rgb(210, 0, 81));
 }
